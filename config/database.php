@@ -5,7 +5,7 @@ class ConexionBD {
     private $contrasena = '';
     private $baseDatos = 'proyecto';
 
-    public function conectar() {
+    public   function conectar() {
         // Agregamos ruta del socket para macOS con XAMPP
         $socket = '/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock';
         $conexion = new mysqli($this->host, $this->usuario, $this->contrasena, $this->baseDatos, 3306, $socket);
