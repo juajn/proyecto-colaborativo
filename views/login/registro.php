@@ -27,7 +27,7 @@
                 </div>
                 <button class="btn btn-success w-100" type="submit">Registrar</button>
             </form>
-            <p class="text-center mt-3"><a href="iniciosesion.php">Ya tengo cuenta</a></p>
+            <p class="text-center mt-3"><a href="index.php">Ya tengo cuenta</a></p>
         </div>
     </div>
 </div>
